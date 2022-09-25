@@ -44,6 +44,11 @@ body{
 
 .clear{
     color: skyblue;
+    text-align: center;
+}
+
+.clear img{
+    height: 400px;
 }
 
 .start-botton:hover{
@@ -52,6 +57,11 @@ body{
 
 .question{
     color: gray;
+}
+
+.question-img{
+    height: 400px;
+    background-repeat: no-repeat;
 }
 
 .type-form-wrapper{
@@ -71,4 +81,5 @@ body{
 
 .guage{
     height: 12px;
+    transition: all .3s ease;
 }
